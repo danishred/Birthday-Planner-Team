@@ -1,3 +1,27 @@
+
+/* Header Section */
+.header{
+ margin: 0;
+ background: #020202;
+ cursor: crosshair;
+}
+canvas{
+  display:block;
+  width: 100%;
+}
+h1 {
+ position: absolute;
+ top: 40%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: #fff;
+ font-family: "Source Sans Pro";
+ font-size: 5em;
+ font-weight: 900;
+ -webkit-user-select: none;
+ user-select: none;
+}
+
 body {
     background-color: #fff;
     color: #212529;
@@ -17,13 +41,13 @@ body {
     width: 90%;
 }
 
-.header {
+/* .header {
     background-color: #477bff;
     color: #fff;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     text-align: center;
-}
+} */
 
 .section {
     margin: 100px 0px;
@@ -211,8 +235,13 @@ tbody tr:nth-of-type(odd) {
     cursor: pointer;
   }
 
+
+
+
   /* Section-1 */
 
+
+  
   .user-box {
     display: flex;
     position: relative;
